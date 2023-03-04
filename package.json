@@ -1,4 +1,5 @@
 {
+  "version": "1.0.0",
   "name": "global-relay-id-mongoose",
   "keywords": ["global", "object", "identifier", "relay", "mongoose"],
   "main": "dist/index.js",
