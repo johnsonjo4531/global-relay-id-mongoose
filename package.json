@@ -1,9 +1,14 @@
 {
-  "version": "1.0.0",
+  "version": "1.0.1",
   "name": "global-relay-id-mongoose",
   "keywords": ["global", "object", "identifier", "relay", "mongoose"],
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:johnsonjo4531/global-relay-id-mongoose.git"
+  },
+  "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.21.0",
     "@babel/preset-env": "^7.20.2",
