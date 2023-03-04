@@ -1,0 +1,27 @@
+{
+  "name": "global-relay-id-mongoose",
+  "keywords": ["global", "object", "identifier", "relay", "mongoose"],
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@babel/core": "^7.21.0",
+    "@babel/preset-env": "^7.20.2",
+    "@babel/preset-typescript": "^7.21.0",
+    "@types/jest": "^29.4.0",
+    "babel-jest": "^29.4.3",
+    "jest": "^29.4.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "test": "make",
+    "build": "tsc",
+    "prepublish": "npm run test && npm run build"
+  },
+  "dependencies": {
+    "dataloader": "^2.2.2"
+  },
+  "peerDependencies": {
+    "mongoose": ">=5.0.0"
+  }
+}
